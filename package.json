@@ -1,0 +1,20 @@
+{
+  "name": "hello-world-website",
+  "version": "1.0.0",
+  "description": "A simple website for CI/CD demo using Jenkins",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC"
+}
