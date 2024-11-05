@@ -3,29 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Hello World Website</title>
+    <title>Beautiful Website</title>
     <link rel="stylesheet" href="/css/styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script defer src="/js/3d-scene.js"></script>
 </head>
 <body>
     <header>
-        <h1>Hello, World!</h1>
-        <p>Welcome to our Jenkins CI/CD Pipeline demo website.</p>
+        <div class="container">
+            <h1>Beautiful Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <section>
-        <h2>About This Project</h2>
-        <p>This website demonstrates a CI/CD pipeline using Jenkins, SonarQube, Trivy, and Docker.</p>
-        
-        <!-- 3D container -->
-        <div id="3d-container" style="width: 100%; height: 400px;"></div>
-        
-        <img src="/css/Image.jpg" alt="Demo Image" style="max-width: 100%; height: auto;">
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to Our Beautiful Website</h2>
+            <p>We create stunning websites with modern designs and seamless user experiences.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Hello World Website. All Rights Reserved.</p>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of passionate web designers and developers dedicated to crafting beautiful and functional websites.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-card">
+                <h3>Web Design</h3>
+                <p>Creating beautiful and responsive designs tailored to your needs.</p>
+            </div>
+            <div class="service-card">
+                <h3>Development</h3>
+                <p>Building robust and scalable web applications with the latest technologies.</p>
+            </div>
+            <div class="service-card">
+                <h3>SEO Optimization</h3>
+                <p>Improving your website’s visibility on search engines to attract more visitors.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: info@beautifulwebsite.com</p>
+            <p>&copy; 2024 Beautiful Website. All Rights Reserved.</p>
+        </div>
     </footer>
+
 </body>
 </html>
