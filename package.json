@@ -1,7 +1,7 @@
 {
-  "name": "hello-world-website",
+  "name": "beautiful-website",
   "version": "1.0.0",
-  "description": "A simple website for CI/CD demo using Jenkins",
+  "description": "A beautiful website example",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
