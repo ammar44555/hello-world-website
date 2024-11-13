@@ -1,12 +1,11 @@
 {
-  "name": "beautiful-website",
+  "name": "hello-world",
   "version": "1.0.0",
-  "description": "A beautiful website example",
+  "description": "A simple Hello World Express app",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js"
   },
   "dependencies": {
     "express": "^4.21.1"
