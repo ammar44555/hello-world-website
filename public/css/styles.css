@@ -8,6 +8,7 @@
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
+    text-align: center;
 }
 
 .container {
@@ -22,75 +23,24 @@ header {
     padding: 20px 0;
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+header .container h1 {
+    font-size: 2em;
 }
 
 /* Hero Section */
 #hero {
-    background-image: url('/images/Image.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    text-align: center;
-}
-
-#hero h2 {
-    font-size: 2.5em;
-}
-
-.cta-button {
-    background-color: #ff6347;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-    background-color: #e5533d;
-}
-
-/* About Section */
-#about, #services {
-    padding: 40px 0;
     background-color: #f4f4f4;
-    text-align: center;
+    padding: 50px 0;
 }
 
-.service-card {
-    background: white;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+#hero .hero-content h2 {
+    font-size: 2em;
 }
 
 /* Footer */
 footer {
     background-color: #333;
     color: #fff;
-    text-align: center;
     padding: 20px 0;
+    margin-top: 40px;
 }
