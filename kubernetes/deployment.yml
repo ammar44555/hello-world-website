@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-world-container
-        image: ammar55/netflix:004
+        image: ammar55/netflix:006
         ports:
         - containerPort: 3000
